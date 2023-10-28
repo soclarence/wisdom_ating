@@ -33,10 +33,10 @@ export default function Menu(props) {
       >
         <ul className="w-full mix-blend-difference text-white mt-20 flex flex-col space-y-5">
           <Link to="/" className="w-full pb-2 border-b-[1px]">
-            <li>Home</li>
+            <li onClick={props.close}>Home</li>
           </Link>
           <Link to="/about" className="w-full pb-2 border-b-[1px]">
-            <li>About</li>
+            <li onClick={props.close}>About</li>
           </Link>
           <a
             href="https://calendly.com/wisdomating/30min?back=1&month=2023-10"
