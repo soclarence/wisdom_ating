@@ -43,7 +43,7 @@ export default function About() {
       >
         <Loader />
       </motion.div>
-      <div className="lg:w-[55%] w-[90%] lg:sticky top-10">
+      <div className="lg:w-[45%] w-[90%] lg:sticky top-10">
         <img src={img} alt="" onLoad={() => setIsVisible(false)} />
       </div>
       <div className="w-[90%] lg:w-[40%] lg:pr-20 mb-10">
@@ -52,22 +52,27 @@ export default function About() {
           Ifiokobong Ating popularly known as Wisdom Ating, a visionary and
           dynamic leader, is known for his exceptional ability to develop and
           execute innovative brand and marketing strategies that consistently
-          drive growth and exceed client expectations. <br /> <br /> With close
-          to a decade experience building businesses and serving clients across
-          diverse sectors, including Real Estate, Fintech, FMCGs, Agriculture
-          and Human Development. Wisdom brings a unique perspective and fresh
-          approach to every project he takes on. <br /> <br />
-          He has worked with renowned organisations, such as the African Union,
-          United Nations, Tony Elumelu Foundation, Bill and Melinda Gates
-          Foundation, WaterAid Nigeria, and many more. He has a proven track
-          record of developing successful campaigns that increase brand
-          awareness, drive engagement, and generate results. <br /> <br />A
-          passionate and inspiring leader, Wisdom is committed to getting Africa
-          a seat on the global scene by investing in People, Stories and Ideas -
-          fostering a culture of creativity, collaboration, and innovation. He
-          believes in the power of people development and is dedicated to
-          mentoring and empowering African youths to achieve their full
-          potential. <br />
+          drive growth and exceed client expectations.
+          <br /> <br /> With close to a decade experience building businesses
+          and serving clients across diverse sectors, including Real Estate,
+          Fintech, FMCGs, Agriculture and Human Development. Wisdom brings a
+          unique perspective and fresh approach to every project he takes on.{" "}
+          <br /> <br />
+          He has worked with renowned organisations both local and international
+          generating a combined revenue of about $8million. He has a proven
+          track record of developing successful campaigns that increase brand
+          awareness, drive engagement, and generate results.
+          <br /> <br />A passionate and inspiring leader, Wisdom is committed to
+          getting Africa a seat on the global scene by investing in People,
+          Stories and Ideas - fostering a culture of creativity, collaboration,
+          and innovation. He believes in the power of people development and is
+          dedicated to mentoring and empowering African youths to achieve their
+          full potential.
+          <br />
+          <br />
+          He is on a journey to help African Enterprises build more legacy
+          businesses (businesses that can be passed from one generation to the
+          other) by strengthening their strategy, systems and processes. <br />{" "}
           <br />
           At the core of his approach to business is a customer-centric mindset,
           which he believes is essential for building and sustaining long-term
