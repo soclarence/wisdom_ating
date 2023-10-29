@@ -44,7 +44,7 @@ export default function Menu(props) {
             rel="noreferrer"
             className="w-full pb-2 border-b-[1px]"
           >
-            <li>Schedule a call</li>
+            <li onClick={props.close}>Schedule a call</li>
           </a>
         </ul>
       </motion.div>
